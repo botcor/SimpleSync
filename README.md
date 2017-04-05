@@ -2,10 +2,12 @@
 A simple windows tool for synchronising files and directories, which can be configured to synchronise for example a USB-Stick folder to a Local folder and reverse.
 
 The console program recieves two paths:
--> SimpleSync.exe <Source Path> <Destination Path>
+
+-> SimpleSync.exe (Source Path) (Destination Path)
 
 You can configure two shortcuts "Upload" and "Download" one for each synchronising direction.
 For example:
+
   Upload ->    F:\SimpleSync.exe %USERPROFILE%\Documents\SyncFolder F:\\SyncFolder
   Download ->  F:\SimpleSync.exe F:\\SyncFolder %USERPROFILE%\Documents\SyncFolder
   
